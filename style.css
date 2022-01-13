@@ -171,3 +171,37 @@ main {
     color: #ED6B4F;
     font-size: 14px;
 }
+
+
+/* Caurse Rating Section */
+
+.caurse_rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filled_star {
+    color: #FFC014;
+    font-size: 12px;
+}
+
+.unfilled_star {
+    color: #AEAEAE;
+    font-size: 12px;
+}
+
+.rating_value {
+    color: #A2A2A2;
+}
+
+.duration_hour,
+.fa-clock {
+    color: #FF4A60;
+}
+
+.caurse_duration {
+    background-color: #FFE4E8;
+    border-radius: 20px;
+    padding: 3px 8px;
+}
