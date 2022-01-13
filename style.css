@@ -1,0 +1,57 @@
+/******************
+    Main Fonts
+*******************/
+
+body {
+    background-color: #E5E5E5;
+}
+
+main {
+    font-family: 'Adamina', serif;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.players {
+    width: 870px;
+    height: 679px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.top_players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player_area {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.player_area img {
+    height: 56px;
+    width: 56px;
+}
+
+.player_item {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 16px;
+}
+
+
+/* blog area */
